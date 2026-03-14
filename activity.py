@@ -31,7 +31,6 @@ import json
 from collabwrapper import CollabWrapper
 
 from game import Game, GameMode
-from game import Game
 
 class Euclids(activity.Activity):
     def __init__(self, handle):
