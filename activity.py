@@ -308,7 +308,9 @@ Game Modes:
 
     def write_file(self, file_path):
         """Save game state to Journal"""
-        
+
+        self.metadata['mime_type'] = 'application/x-euclids-game'
+
         try:
             data = {
                 'metadata': {
